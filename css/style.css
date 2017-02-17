@@ -1,0 +1,205 @@
+/*
+TABLE OF CONTENTS
+1. universal styles
+2. nav styles
+3. index
+4. about
+5. employment
+6. disability
+7. resources
+*/
+
+/*-------------------
+1. universal styles
+-------------------*/
+@font-face {
+  font-family:'HelveticaLTStd', sans-serif;
+  src: url('../media/font/HelveticaLTSt.otf');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+}
+body{
+  margin: 0;
+  background-color: #ceffcc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+div{
+    width: auto;
+    height: auto;
+}
+
+h1{
+  font-size: 45pt;
+  font-family: 'Helvetica',sans-serif;
+  font-weight: lighter; 
+  text-align: center;
+}
+
+.sub-title{
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+p{
+  font-size: 12pt;
+}
+
+footer p {
+    background-color: #273985;
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    clear:left;
+    margin-bottom: 0px;
+}
+
+/*-------------------
+2. nav styles
+-------------------*/
+nav {
+    width: 100%;
+	position:relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99ce78;
+    text-align: center;
+    margin: 0;
+    display:flex;
+    justify-content:space-between;
+    padding: 0 40px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 25px 0px;
+}
+
+nav ul li:hover {
+
+}
+
+#logo {
+  height: 50px;
+  position: relative;
+}
+
+#logoText {
+  color: #fff;
+  float: right;
+  text-align: left;
+  font-style: italic;
+}
+
+#logoWrapper{
+  position: relative;
+  top: 7px;
+}
+
+
+#contact {
+    max-height: 175px;
+    max-width: 115px;
+}
+
+#map {
+    max-height: 600px;
+    max-width: 600px;
+}
+/*-------------------
+3. index
+-------------------*/
+
+/*-------------------
+4. about
+-------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
+
+/*-------------------
+5. employment
+-------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
+/*-------------------
+6. disability
+-------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
+
+
+/*-------------------
+7. resources
+-------------------*/
+
+.description{
+    font-weight: bold;
+}
+
+.link{
+    font-weight: normal;
+    color: #000000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #273985;
+}
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+
+}
+#mainimage{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+/*-------------------
+8. buttons
+-------------------*/
+
+<div id="share-buttons">
+
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+
+  </div>
