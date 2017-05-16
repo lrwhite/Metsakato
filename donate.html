@@ -10,25 +10,33 @@
 </head>
 
       <header>
-      <nav>
-            <ul>
-              <li><div id="logoWrapper"><img src="media/img/logo.png" alt="logo" id="logo"><div id="logoText"><br/>Metsakato<br/><br/></div></div></li>
+     <nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+
+          <ul id="menu">
               <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="benefits.html">Benefits of Trees</a></li>
-              <li><a href="interactivemap.html">Interactive Map</a></li>
-              <li><a href="founders.html">Founders</a></li>
-              <li><a href="contactus.html">Contact Us</a></li>
-              <li><a href="donate.html">Donate</a></li>
-            </ul>
-          </nav>
+    <li><a href="about.html">About Us</a></li> 
+     <li><a href="benefits.html">Benefits of Trees</a></li> 
+      <li><a href="interactivemap.html">Interactive Map</a></li> 
+    <li><a href="founders.html">Founders</a></li> 
+    <li><a href="contactus.html">Contact Us</a></li> 
+    <li><a href="donate.html">Donate</a></li> 
+             <li><a href="quiz.html">Quiz</a></li> 
+    </ul>
+  </div>
+</nav>
           
     </header>
 <center>
     <body>
         <div class="content">
     
-        <h1>Donate!</h1>
+            <h1><u><b><i>Donate</b></i></u></h1>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
     <!-- Identify your business so that you can collect the payments. -->
@@ -44,8 +52,7 @@
     <input type="hidden" name="currency_code" value="USD">
 
     <!-- Display the payment button. -->
-    <input type="image" name="submit"
-    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+    <input id="donateimg" type="image" name="submit" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png"
     alt="Donate">
     <img alt="" width="1" height="1"
     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
@@ -54,7 +61,7 @@
             <br>
         <h2 class="sub-title">Show your support to save the Earth.</h2>
             <br>
-        <p>By donating at least one dollar, you can help plant a seed and regrow the Earth. Your donation will be able to extend Earth's life. It will also save animals from extinction. All donations will go to foundations that support the maintaining of Earth's greeness and liveliness. Any amount matters and we thank you for your support and we hope that you will consider to donate.</br> 
+        <p id="donatingpara">By donating at least one dollar, you can help plant a seed and regrow the Earth. Your donation will be able to extend Earth's life. It will also save animals from extinction. All donations will go to foundations that support the maintaining of Earth's greeness and liveliness. Any amount matters and we thank you for your support and we hope that you will consider to donate.</br> 
         <br> - Zhong & Logan</p>
             </div>
         </center>
